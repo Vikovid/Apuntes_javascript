@@ -10,6 +10,12 @@ let nombre = "Victor";
 console.log(nombre);
 console.log(typeof nombre);
 
+//Función replace
+let cadena = "Hola Mundo desde Visual Studio Code";
+console.log(cadena);
+let nuevaCadena = cadena.replace("Visual Studio Code","JavaScript");
+console.log(nuevaCadena);
+
 //Boolean
 let esMayorDeEdad = true;
 console.log(esMayorDeEdad);
@@ -62,6 +68,8 @@ console.log(typeof ejemplo);
     Es importante decir que esto solo es posible si se declara
     con "var", además de que el Hoisting puede resultar confuso
     para programadores novatos.
+
+    El hoisting no funciona para clases.
 */
 
 miPrimerHoisting = 20;

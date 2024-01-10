@@ -104,3 +104,12 @@ console.log(arreglo3.slice(0,3));
     
     let arreglo = Array(elemento1, elemento2, ... elemento_n);
 */
+
+// spread operator (operador de propagación)
+/*
+    Este operador retorna los elementos de un arreglo.
+    Es decir "desempaqueta" los componenetes de un arreglo y
+    los pasa 1 a 1
+*/
+console.log(arreglo);
+console.log(...arreglo);

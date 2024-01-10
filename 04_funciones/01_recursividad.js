@@ -23,3 +23,13 @@ function kaboom(n){
   }
 }
 kaboom(5);
+
+//--Ej.2 imprimir una pirámide de altura n
+function escaleraRecursiva(n, nivel = 1){
+  if(nivel > n)
+    return;
+
+  console.log(("-".repeat(n-nivel))+("#".repeat(nivel*2-1))+("-".repeat(n-nivel)));
+  escaleraRecursiva(n, nivel + 1);
+}
+escaleraRecursiva(5);
